@@ -100,6 +100,6 @@ def scrape_repository(url, repo_name):
   #write out as csv
   final_df.to_csv(repo_name + ".csv", index=False)
 
-#scrape_repository(KDE_BASE_URL, "kde")
+scrape_repository(KDE_BASE_URL, "kde")
 scrape_repository(SUSE_BASE_URL, "suse")
 scrape_repository(GENTOO_BASE_URL, "gentoo")
